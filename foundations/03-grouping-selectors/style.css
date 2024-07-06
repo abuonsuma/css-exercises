@@ -1,0 +1,13 @@
+.action{
+    color: white;
+    background-color: black;
+    font-weight: bold;
+}
+
+.action2{
+    background-color: yellow;
+}
+
+.action, .action2{
+    font-size: 28px;
+}
