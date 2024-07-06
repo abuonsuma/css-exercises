@@ -1,3 +1,8 @@
+.action, .action2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+}
+
 .action{
     color: white;
     background-color: black;
@@ -6,8 +11,4 @@
 
 .action2{
     background-color: yellow;
-}
-
-.action, .action2{
-    font-size: 28px;
 }
