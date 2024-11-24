@@ -28,11 +28,21 @@ img {
 
 .container{
   display: flex;
+  flex-direction: column;
+  align-items: center;
   justify-content: center;
 }
 
-.box{
+.item{
   display: flex;
   flex-direction: column;
-  align-items: center;
+  justify-content: center;
+  align-items: center;  
+  flex-basis: 200px;
+  margin: 52px;
+}
+
+.tile{
+  display: flex;
+  justify-content: center;
 }
