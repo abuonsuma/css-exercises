@@ -45,4 +45,33 @@ a {
 
 ul {
   list-style-type: none;
+  display: flex;
+}
+
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.container{
+  display: flex;
+  align-items: center;
+}
+
+.logo{
+  margin: 0 8px 0 8px; 
+}
+
+a{
+  margin: 8px;
+}
+
+ul{
+  padding-left: 8px;
+}
+
+.notifications,
+.profile-image{
+  margin: 8px;
 }
