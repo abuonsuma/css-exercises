@@ -28,13 +28,19 @@ input {
 .header, .footer{
   display: flex;
   justify-content: space-between;
+  color: rgb(51, 50, 50);
 }
 
 .content{
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
+}
+
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 ul{
@@ -42,6 +48,7 @@ ul{
   margin: 16px;
   padding: 0;
 }
+
 a{
   text-decoration: none;
 }
@@ -51,8 +58,22 @@ ul{
   gap: 16px;
 }
 
-.footer{
+.header, .footer{
+  position:fixed;
+  right: 0;
+  left: 0;
   height: 32px;
-  background: #ddd;
   align-items: center;
+}
+
+.header{
+  top: 0;
+}
+.footer{
+  background: #eee;
+  bottom: 0;
+}
+
+.input{
+  margin: 16px; 
 }
